@@ -1,0 +1,141 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Serif', serif;
+    background-color: white;
+    color: #4A4A4A;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #5F8277;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo-circle img {
+    width: 50px;
+    height: 50px;
+    background-color: #5F8277;
+    border-radius: 50%;
+}
+
+.company-name {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px 12px;
+    background-color: #4E6D5D;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #3b5346;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+}
+
+.search-btn {
+    padding: 5px 10px;
+    background-color: #5F8277;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+    background-color: #4e6d5d;
+}
+
+/* Mission Section */
+.mission-section {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #F9F9F9;
+}
+
+.left-box {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.left-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.right-content {
+    flex: 2;
+    max-width: 600px;
+}
+
+.right-content h1 {
+    font-size: 36px;
+    color: #2C3E50;
+    margin-bottom: 20px;
+}
+
+.right-content p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #4A4A4A;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5F8277;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #4e6d5d;
+}

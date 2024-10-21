@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmony Minds - Login</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/login.css"> <!-- Separate CSS for the login page -->
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <a href="index.html" class="logo-circle">  
+                <img src="/h.avif" alt="Harmony Minds Logo">
+            </a>
+            <h2 class="company-name">Harmony Minds</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blogs</a></li>
+                <li><a href="hotline.html">Hotlines</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="aboutus.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="login">
+            <div class="login-content">
+                <h1>Login to Your Account</h1>
+                <form action="/submit_login" method="POST">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <button type="submit" class="button">Login</button>
+                </form>
+                <p>Don't have an account? <a href="register.html">Register here</a>.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Harmony Minds. All rights reserved.</p>
+    </footer>
+
+    <script src="/js/login.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>

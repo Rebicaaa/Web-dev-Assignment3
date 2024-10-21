@@ -1,0 +1,148 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Serif', serif;
+    background-color: white;
+    color: #4A4A4A;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #5F8277;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo-circle img {
+    width: 50px;
+    height: 50px;
+    background-color: #5F8277;
+    border-radius: 50%;
+}
+
+.company-name {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px 12px;
+    background-color: #4E6D5D;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #3b5346;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+}
+
+.search-btn {
+    padding: 5px 10px;
+    background-color: #5F8277;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+    background-color: #4e6d5d;
+}
+
+.nav-dots {
+    display: flex;
+}
+
+.nav-dots .dot {
+    width: 12px;
+    height: 12px;
+    background-color: #5F8277;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+/* Blog Post Section */
+.blog-post {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    background-color: #5F8277;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.author-info {
+    color: #4A4A4A;
+}
+
+.author-info .name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.author-info .title {
+    font-size: 14px;
+    color: #777;
+}
+
+.blog-content h2 {
+    font-size: 24px;
+    color: #2C3E50;
+    margin-bottom: 10px;
+}
+
+.blog-content p {
+    font-size: 16px;
+    line-height: 1.6;
+}

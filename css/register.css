@@ -1,0 +1,76 @@
+/* Register Page Styles */
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background-color: #f9f9f9;
+    min-height: calc(100vh - 200px); /* Adjust height to fill the page */
+}
+
+.register-content {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-content h1 {
+    font-size: 2rem;
+    color: #2C3E50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #4A4A4A;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group input:focus {
+    border-color: #5F8277;
+}
+
+.register-content .button {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    background-color: #5F8277;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.register-content .button:hover {
+    background-color: #4e6d5d;
+}
+
+.register-content p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register-content a {
+    color: #5F8277;
+    text-decoration: none;
+}
+
+.register-content a:hover {
+    text-decoration: underline;
+}
